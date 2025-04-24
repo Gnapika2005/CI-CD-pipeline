@@ -3,9 +3,9 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main" ]  # Change this to your repo's branch if it's not "main"
 
-jobs: 
+jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
